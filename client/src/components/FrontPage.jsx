@@ -39,11 +39,11 @@ class FrontPage extends Component {
 
     
     render() {
-        console.log(this.state.blogs)
+        console.log(this.state.blogs[0])
         return (<Fragment> <div className="jumbotron">
             <h1 className="display-4">Blogs Free</h1>
             <p className="lead">This is a simple blog posting website, enjoy the freedom to discuss whatever you would like on this platform.</p>
-            <Link to="/createBlog">Create Blogs</Link>
+            <Link to="/createBlog">Create Blog Post</Link>
             <hr></hr>
 
 

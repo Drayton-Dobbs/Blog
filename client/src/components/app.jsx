@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import FrontPage from './FrontPage';
 import InputBlog from './InputBlogs';
-import BlogCards from './ViewSingleBlog'
+import ViewSingleBlog from './ViewSingleBlog';
 
 
 class Navigation extends Component {
@@ -15,7 +15,7 @@ class Navigation extends Component {
                     <Switch>
                         <Route exact path="/" component={FrontPage} />
                         <Route path="/createBlog" component={InputBlog} />
-                        <Route path="/blog" component={BlogCards} />
+                        <Route path="/Blogs/:id" component={ViewSingleBlog} />
                     </Switch>
                 </Fragment>
             </Router>

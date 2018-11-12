@@ -15,7 +15,7 @@ class BlogCards extends Component {
     <h5 className="card-title">{this.props.title}</h5>
     <p className="card-text">{this.props.content}</p>
     <div>
-    <Link to="/blog">View Blog</Link>
+    <Link to={`/Blogs/${this.props.id}`}>View Blog</Link>
     </div>
     
   </div>
