@@ -29,11 +29,6 @@ router.delete('/:id', (req, res) => {
         .catch(e => res.send(e));
 });
 
-// router.find('/:id', (req, res) => {
-//     blogsTable.find(req.params.id)
-//     //will come back 
-// });
-
 router.post('/', (req, res) => {
     blogsTable.insert(req.body)
     .then(results => res.send(results))

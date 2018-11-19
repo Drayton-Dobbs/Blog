@@ -1,0 +1,133 @@
+body {
+    background-image: url('/dope.jpg');
+    background-size: cover;
+}
+
+.jumbotron {
+    background-image: url('/newbg.jpg');
+    background-size: cover;
+    margin: 0%;
+    height: 280px;
+}
+
+.display-1 {
+    /* text-align: center; */
+    position: absolute;
+    right: 60px;
+    top: 0px;
+    color: black;
+    text-shadow:
+		-1px -1px 0 rgb(0, 0, 0),
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#headerInput {
+    color: whitesmoke;
+    position: relative;
+    left: 1000px;
+    bottom: 30px;
+}
+#inputBlog {
+    width: 50%;
+    position: relative;
+    left: 400px;
+    margin: 50px;
+    border: 5px solid black;
+    padding: 3em;
+    background-color: lightgray;
+    background-size: cover;
+}
+
+#submit {
+    position: absolute;
+    right: 565px;
+    top: 360px;
+    
+}
+
+#link {
+    /* float: right;
+    position: relative;
+    right: 50px;
+    top: 38px; */
+    color: black;
+}
+
+.card {
+    /* background-image: url('/thebg.jpg'); */
+    background-color: gray;
+    align-self: flex-start;
+    width: 45%;
+    margin: 10px;
+    border: 2px solid blueviolet;
+
+   
+    
+}
+
+.list-unstyled {
+    display: inline-block;
+}
+
+.fab {
+    font-size: 35px;
+    display: inline-block;
+}
+
+
+#text {
+    color: white;
+
+}
+
+#titletext {
+    color: black;
+
+}
+
+.lead {
+    color: white;
+    text-align: right;
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
+
+#para {
+    grid-area: auto
+}
+
+#cats {
+    background-image: url('/crazykit.png') ;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 130px;
+    right: 0px;
+    background-size: cover;
+
+}
+
+.cardCon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+
+#foot {
+    background-color: rgba(169, 169, 169, 0.242);
+    clear: both;
+    bottom: 0px;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+#ugLink {
+    color: #000;
+}
